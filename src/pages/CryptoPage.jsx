@@ -65,7 +65,7 @@ import { useEffect, useState } from 'react'
             <meta name="description" content={`Track ${cryptoInfo.name} (${cryptoInfo.symbol}) price, market cap, volume, and historical data. Get the latest ${cryptoInfo.name} cryptocurrency information.`} />
             <meta property="og:title" content={`${cryptoInfo.name} (${cryptoInfo.symbol}) Price & Market Data`} />
             <meta property="og:description" content={`Real-time ${cryptoInfo.name} price, market cap, and trading volume. Get the latest ${cryptoInfo.name} cryptocurrency information.`} />
-            <link rel="canonical" href={`https://crypto-pricing.com/crypto/${id}`} />
+            <link rel="canonical" href={`https://www.crypto-pricing-index.com/crypto/${id}`} />
           </Helmet>
 
           <div className="container">

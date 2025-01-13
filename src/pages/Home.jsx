@@ -44,21 +44,21 @@ import { useEffect, useState } from 'react'
         <>
           <Helmet>
             <meta name="monetag" content="7cc06f6bd41e6826be23c098b813acf4" />
-            <title>Real-time Cryptocurrency Prices & Market Data | Crypto Pricing</title>
+            <title>Real-time Cryptocurrency Prices & Market Data | Crypto Pricing Index</title>
             <meta name="description" content="Track real-time cryptocurrency prices, market caps, and trading volumes. Get the latest crypto market data, trends, and news." />
             <meta property="og:title" content="Real-time Cryptocurrency Prices & Market Data" />
             <meta property="og:description" content="Track real-time cryptocurrency prices, market caps, and trading volumes. Get the latest crypto market data, trends, and news." />
-            <link rel="canonical" href="https://crypto-pricing.com/" />
+            <link rel="canonical" href="https://www.crypto-pricing-index.com/" />
             <script type="application/ld+json">
               {JSON.stringify({
                 "@context": "https://schema.org",
                 "@type": "WebSite",
-                "name": "Crypto Pricing",
-                "url": "https://crypto-pricing.com/",
+                "name": "Crypto Pricing Index",
+                "url": "https://www.crypto-pricing-index.com/",
                 "description": "Real-time cryptocurrency prices and market data",
                 "potentialAction": {
                   "@type": "SearchAction",
-                  "target": "https://crypto-pricing.com/crypto/{search_term_string}",
+                  "target": "https://www.crypto-pricing-index.com/crypto/{search_term_string}",
                   "query-input": "required name=search_term_string"
                 }
               })}

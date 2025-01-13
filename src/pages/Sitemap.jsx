@@ -11,7 +11,7 @@ import { useEffect, useState } from 'react'
       }, [])
 
       const generateSitemap = () => {
-        const baseUrl = 'https://crypto-pricing.com'
+        const baseUrl = 'https://www.crypto-pricing-index.com'
         const pages = [
           { loc: `${baseUrl}/`, lastmod: new Date().toISOString() },
           ...cryptoList.map(crypto => ({
@@ -37,7 +37,7 @@ import { useEffect, useState } from 'react'
         <>
           <Helmet>
             <meta name="monetag" content="7cc06f6bd41e6826be23c098b813acf4" />
-            <title>Sitemap - Crypto Pricing</title>
+            <title>Sitemap - Crypto Pricing Index</title>
             <meta name="robots" content="noindex" />
           </Helmet>
           <pre>{generateSitemap()}</pre>
