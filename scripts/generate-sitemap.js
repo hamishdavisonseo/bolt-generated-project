@@ -1,6 +1,6 @@
-const fs = require('fs');
-    const path = require('path');
-    const fetch = require('node-fetch');
+import fs from 'fs';
+    import path from 'path';
+    import fetch from 'node-fetch';
 
     const BASE_URL = 'https://www.crypto-pricing-index.com';
 
@@ -30,7 +30,7 @@ const fs = require('fs');
           `).join('')}
         </urlset>`;
 
-        fs.writeFileSync(path.join(__dirname, '../public/sitemap.xml'), sitemap);
+        fs.writeFileSync(path.join('public', 'sitemap.xml'), sitemap);
         console.log('Sitemap generated successfully.');
       } catch (error) {
         console.error('Error generating sitemap:', error);
