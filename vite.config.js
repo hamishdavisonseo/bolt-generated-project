@@ -19,5 +19,10 @@ import { defineConfig } from 'vite'
         host: true,
         port: 3000,
         historyApiFallback: true
+      },
+      build: {
+        rollupOptions: {
+          input: '/index.html'
+        }
       }
     })
